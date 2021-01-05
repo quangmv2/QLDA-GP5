@@ -4,7 +4,6 @@ import { FEATURE_NAME_AUTH } from "./constants";
 const getAuthState = state => {
   return state[FEATURE_NAME_AUTH];
 };
-
 const selectUserInfo = () => 
   createSelector(getAuthState, state => state.get("userInfo"));
 
@@ -45,4 +44,3 @@ export {
   selectUserChangePass,
   selectUserInfo,
 };
-

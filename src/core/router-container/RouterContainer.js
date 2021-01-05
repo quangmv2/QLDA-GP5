@@ -71,6 +71,7 @@ class RouterContainer extends React.Component {
     }
 
     async componentDidMount() {
+        // console.log(1);
         const { language, requestChangeLanguage } = this.props;
         const languageCodeCookie = Cookies.get("languageCode");
         const languageFinal = languageCodeCookie
@@ -148,6 +149,7 @@ class RouterContainer extends React.Component {
         return result ? result.isExact : false;
     };
 
+
     render() {
         const {
             history,
@@ -170,7 +172,7 @@ class RouterContainer extends React.Component {
                             <>
                                 {isPrivateRoute && (
                                     <PrivateLayout
-                                        changeLanguage={requestChangeLanguage}
+                                        // changeLanguage={requestChangeLanguage}
                                         history={history}
                                         language={language}
                                     >
@@ -191,7 +193,7 @@ class RouterContainer extends React.Component {
                         )}
                     </Switch>
                 </IntlProvider>
-            </React.Fragment>
+            </React.Fragment> 
         );
     }
 }
@@ -214,6 +216,8 @@ const mapDispatchToProps = {
     setLogged: setLogged
 };
 
+
+
 const withConnect = connect(mapStateToProps, mapDispatchToProps);
 
 const withReducer = injectReducer({ key: FEATURE_NAME_AUTH, reducer });
@@ -228,9 +232,11 @@ RouterContainer.propTypes = {
     publicRoutes: PropTypes.array
 };
 
-export default compose(
+export default 
+compose(
     withReducer,
     withSaga,
     withConnect,
     withRouter
-)(RouterContainer);
+)
+(RouterContainer);

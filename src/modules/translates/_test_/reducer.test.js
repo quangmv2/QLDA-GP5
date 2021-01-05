@@ -1,5 +1,5 @@
-import reducer from "../reducers";
-import * as types from "../constants";
+import reducer from "./../reducers";
+import * as types from "./../constants";
 import { fromJS } from "immutable";
 
 describe("REDUCER MULTI-LANGUAGE", () => {

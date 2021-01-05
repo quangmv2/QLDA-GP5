@@ -1,39 +1,29 @@
 # DONATE PROJECT
 
 ## Requirements
-- PHP 7.x,
-- Composer
+- Node
 
 ## Instalation
 
 -   Clone project
 ```
-    git clone https://github.com/buihoang91tin/donate/
+    git clone https://github.com/quangmv2/QLDA-GP5
 ```
 -   Cd in project
 ```
-    cd donate
-``` 
--   Install library
+    cd QLDA-GP5
 ```
-    composer install
+    npm i
+
+## Run
+
+-   Dev
 ```
--   Setup database
+    npm run hot
 ```
-    php arisan migrate
+-   Build
 ```
--   Create db seed
-```
-    php artisan db:seed
-```
--   Setup Passport API
-```
-    php artisan passport:install
-```
--   Run server
-```
-    php artisan serve
-```
+    npm run prod
 
 ## Accoount
 

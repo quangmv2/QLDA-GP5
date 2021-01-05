@@ -1,0 +1,138 @@
+{
+  "common": {
+    "organization": "Organization",
+    "email": "Email",
+    "password": "Password",
+    "logout": "Logout",
+    "welcome": "Welcome",
+    "username": "User Name",
+    "reply": "Reply",
+    "like": "Like",
+    "likes": "Likes",
+    "time": "Time",
+    "goods": "Goods",
+    "complete": "Complete",
+    "foundation": "Foundation",
+    "description": "Description",
+    "name": "Name",
+    "back": "Back",
+    "generous": "Generous"
+  },
+  "error": {
+    "organizationRequired": "Organization is Required",
+    "emailRequired": "Email is Required",
+    "passwordRequired": "Password is Required",
+    "passwordInvalid": "Password is Invalid",
+    "passwordChangeRequired": "Password Change Required",
+    "userNamrRequired": "UserName is Required"
+  },
+  "loginPage": {
+    "remember": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "login": "Login",
+    "changePassRequired": "Password Change Required",
+    "changePass": "Change Password",
+    "newbie": "I don't have account yet!",
+    "signup": "Sign Up",
+    "signin": "Sign In",
+    "keepConnect": "To keep us connected "
+  },
+  "homepage": {
+    "title": "Home",
+    "raiseYourVoice": "Raise your voice",
+    "dueDateTil": "Due date til"
+  },
+  "signupPage": {
+    "createacc": "Create an account",
+    "gotCode": "Got an invitation code",
+    "onboard": "Already onboard",
+    "signed": "Sign In",
+    "making": "Making generousity easy"
+  },
+  "resetPass": {
+    "code": "RESET PASSWORD CODE",
+    "save": "Save new password",
+    "onboard": "Already onboard",
+    "signed": "Sign In",
+    "change": "Change",
+    "password": "your password",
+    "please": "Please enter your new password"
+  },
+  "codePage": {
+    "submit": "Submit Invitation Code",
+    "code": "CODE NUMBER",
+    "skip": "Skip",
+    "home": "Go to homepage",
+    "have": "Have an",
+    "intivation": "Invitation Code"
+  },
+  "forgotPass": {
+    "send": "Send a code",
+    "forgot": "Forgot password",
+    "please": "Please enter your email address",
+    "newbie": "I'm a newbie"
+  },
+  "chooseRole": {
+    "submit": "Join our journey",
+    "cantChange": "You will not be able to switch your role on this account",
+    "step": "One more Step",
+    "who": "Who will you be",
+    "patron": "Patron",
+    "builder": "Builder",
+    "become": "Become a",
+    "giver" : "Generous Patrons",
+    "taker": "Generous Builder",
+    "fullfill": "fullfill your passion to support others",
+    "lead": "and be empowered to lead your intiative on the field"
+  },
+  "postOffer": {
+    "title": "Post a Propositions",
+    "description": "Add optional description",
+    "value": "Offer Value",
+    "duedate": "Due date",
+    "hashtag": "Add hashtags",
+    "publish": "Publish",
+    "typeOfOffer": "Type of Offer",
+    "constructionMaterials": "Construction Materials",
+    "postDescriptionPlaceHolder": "This is content...",
+    "chooseType": "Choose Type",
+    "availableTimeSlots": "Available Time Slots"
+  },
+  "userProfile": {
+    "sendMess": "Send Message",
+    "edit": "Edit your profile"
+  },
+  "editProfile": {
+    "changeYourAvatar": "Change your avatar"
+  },
+  "comment": {
+    "comments": "Comments",
+    "writeAComment": "Write a comment"
+  },
+  "success": {
+    "begin": "Let the journey begin",
+    "congrat": "Congratulations",
+    "success": "Your account has been succesfully created"
+  },
+  "bottomNav": {
+    "home": "Home",
+    "search": "Search",
+    "activities": "Activities",
+    "account": "Account",
+    "post": "Post Offer"
+  },
+  "profileSetting" : {
+    "code": "Have invitation code?",
+    "account": "ACCOUNT",
+    "manage": "Manage My Account",
+    "myprojects": "My projects",
+    "project": "Projects you have liked",
+    "privacy": "Privacy & Safety",
+    "share": "Share profile",
+    "push": "Push notifications",
+    "support": "SUPPORT",
+    "report": "Report a problem",
+    "help": "Help Center",
+    "logout": "Log out"
+  }
+}

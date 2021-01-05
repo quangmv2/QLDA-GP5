@@ -1,0 +1,92 @@
+{
+  "common": {
+    "organization": "Organization",
+    "email": "Email",
+    "password": "Password",
+    "logout": "Logout",
+    "welcome": "Welcome",
+    "username": "User Name",
+    "reply": "Reply",
+    "like": "Like",
+    "likes": "Likes",
+    "time": "Time",
+    "goods": "Goods",
+    "complete": "Complete",
+    "foundation": "Foundation",
+    "name": "Name"
+  },
+  "error": {
+    "organizationRequired": "Organization is Required",
+    "emailRequired": "Email is Required",
+    "passwordRequired": "Password is Required",
+    "passwordInvalid": "Password is Invalid",
+    "passwordChangeRequired": "Password Change Required",
+    "userNamrRequired": "UserName is Required"
+  },
+  "loginPage": {
+    "remember": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "login": "Login",
+    "changePassRequired": "Password Change Required",
+    "changePass": "Change Password",
+    "newbie": "I'm a newbie",
+    "signup": "Sign Up"
+  },
+  "homepage": {
+    "title": "Home",
+    "raiseYourVoice": "Raise your voice",
+    "dueDateTil": "Due date til"
+  },
+  "signupPage": {
+    "createacc": "Create an account",
+    "gotCode": "Got an invitation code",
+    "onboard": "Already onboard",
+    "signed": "Sign In"
+  },
+  "resetPass": {
+    "code": "RESET PASSWORD CODE",
+    "save": "Save new password",
+    "onboard": "Already onboard",
+    "signed": "Sign In"
+  },
+  "codePage": {
+    "submit": "Submit Invitation Code",
+    "code": "CODE NUMBER",
+    "skip": "Skip this step",
+    "home": "Go to homepage"
+  },
+  "forgotPass": {
+    "send": "Send a code",
+    "back": "Back"
+  },
+  "chooseRole": {
+    "submit": "Let the journey begin",
+    "cantChange": "You will not be able to switch your role on this account"
+  },
+  "postOffer": {
+    "title": "Post a Propositions",
+    "description": "Add optional description",
+    "value": "Offer Value",
+    "duedate": "Due date",
+    "hashtag": "Add hashtags",
+    "publish": "Publish",
+    "typeOfOffer": "Type of Offer",
+    "constructionMaterials": "Construction Materials",
+    "postDescriptionPlaceHolder": "This is content...",
+    "chooseType": "Choose Type",
+    "availableTimeSlots": "Available Time Slots"
+  },
+  "userProfile": {
+    "sendMess": "Send Message",
+    "edit": "Edit your profile"
+  },
+  "editProfile": {
+    "changeYourAvatar": "Change your avatar"
+  },
+  "comment": {
+    "comments": "Comments",
+    "writeAComment": "Write a comment"
+  }
+
+
+}

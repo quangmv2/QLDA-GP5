@@ -1,0 +1,13 @@
+.bgImage {
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    min-height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 0 40px;
+}

@@ -1,0 +1,171 @@
+.MuiGrid-root.item-flex {
+  flex: 1;
+  > div {
+    width: 100%;
+  }
+}
+p.MuiFormHelperText-root.Mui-error,
+p.MuiFormHelperText-root {
+  position: absolute;
+  bottom: -25px;
+}
+
+div.form-control {
+  margin-bottom: 25px;
+}
+.input-with-icon {
+  position: relative;
+  .MuiInput-formControl {
+    padding-left: 35px;
+  }
+
+  .MuiInputLabel-formControl {
+    text-transform: uppercase;
+    padding-left: 50px;
+    margin-top: -5px;
+    font-family: Muli;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: black;
+  }
+
+  .MuiSvgIcon-root {
+    position: absolute;
+    left: 3px;
+    bottom: 12px;
+  }
+
+  .MuiInputLabel-shrink {
+    text-transform: uppercase;
+    transform: translate(0, 1.5px);
+    font-weight: 300;
+  }
+}
+.bottomContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.input-post-offer {
+  position: relative;
+  .MuiInput-formControl {
+    padding-left: 10px;
+  }
+
+  .MuiInputLabel-formControl {
+    margin-top: -5px;
+    font-family: Muli;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #666666;
+  }
+
+  .MuiInputLabel-shrink {
+    transform: translate(0, 1.5px);
+    font-weight: 300;
+  }
+}
+.post-offer-with-icon {
+  position: relative;
+  .MuiInput-formControl {
+    padding-left: 10px;
+  }
+
+  .MuiInputLabel-formControl {
+    margin-top: -5px;
+    font-family: Muli;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #666666;
+  }
+
+  .MuiSvgIcon-root {
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+  }
+
+  .MuiInputLabel-shrink {
+    transform: translate(0, 1.5px);
+    font-weight: 300;
+  }
+}
+.form-control-post-offer {
+  margin-top: -30px;
+}
+.form-group .ant-select {
+  width: 100%;
+}
+textarea {
+  padding: 5px;
+}
+
+
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner, 
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner, 
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner{
+  color: #fff;
+  background: #ddae53;
+  border-radius: 50%;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before{
+  border-radius: 50%;
+  border: 1px solid #ddae53;
+}
+
+.ant-picker-today-btn{
+  color: #ddae53;
+}
+
+.ant-picker-content th{
+  color: #2988e9;
+}
+.form-icon {
+  position: absolute;
+    left: 3px;
+    bottom: 12px;
+    font-size: 22px;
+    object-fit: contain;
+}
+
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select:focus,
+textarea,
+.ant-select-multiple .ant-select-selector .ant-select-selection-search-input,
+input[type='text']:focus,
+input[type='number']:focus,
+textarea:focus {
+  font-size: 18px;
+}
+
+.formFields {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	select:focus,
+	textarea:focus,
+	input:focus {
+		font-size: 16px;
+	}
+}
